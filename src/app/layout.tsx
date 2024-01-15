@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 import './globals.css';
-import { ThemeProvider } from '@/lib/providers/theme-provider';
 import LeftSidebar from '@/components/side/left-sidebar';
 import LeftSidebarSm from '@/components/side/left-sidebar-sm';
 import Providers from '@/lib/providers/providers';

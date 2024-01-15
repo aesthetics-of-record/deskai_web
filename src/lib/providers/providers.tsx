@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from '@/lib/providers/theme-provider';
 import { useEffect } from 'react';
-import LoginProvider from './login-provider';
 
 const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -12,7 +11,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
       enableSystem
       disableTransitionOnChange
     >
-{children}
+      {children}
     </ThemeProvider>
   );
 };
